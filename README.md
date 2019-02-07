@@ -27,6 +27,8 @@ cd ~/dirWithTakeoutZips
 sh combine.sh
 ```
 
+Alternately, move the takeout zips to the cloned code directory.
+
 The script will unzip the takeout .zips, create new directories for collected artifacts, and then move selected files into new directories.
 
 Artifacts gathered are output to stdout.  If you wanted to log and audit the file list, try:
